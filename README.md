@@ -3,7 +3,7 @@
 ## Features
 * New year countdown
 * Javascript Mousemove
-* Animated emoji eyes follow mouse cursor
+* Animated emoji eyes follow the mouse cursor
 * Custom mouse cursor on body
 
 ### Important Message: 
