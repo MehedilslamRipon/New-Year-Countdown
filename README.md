@@ -5,6 +5,7 @@
 * Javascript Mousemove
 * Animated emoji eyes follow the mouse cursor
 * Custom mouse cursor on body
+* Awesome UI
 
 ### Important Message: 
 ```sh
