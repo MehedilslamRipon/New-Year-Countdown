@@ -10,6 +10,7 @@ const headingTwo = document.getElementById("headingTwo");
 const cap = document.getElementById("cap");
 const cap2 = document.getElementById("cap2");
 const fireWorkBtn2 = document.getElementById("fireWorkBtn2");
+const face2 = document.getElementById("face2");
 
 const currentYear = new Date().getFullYear();
 
@@ -51,7 +52,7 @@ function eyeball() {
    });
 }
 
-fireWorkBtn.addEventListener("click", () => {
+function fireWork() {
    $(".fireWork").fireworks({
       sound: true, // sound effect
       opacity: 0.4,
@@ -63,20 +64,15 @@ fireWorkBtn.addEventListener("click", () => {
       "Let us remember the good times along with the bad And pray for sunnier days in 2021 ...";
    cap.style.display = "block";
    cap2.style.display = "block";
+}
+
+fireWorkBtn.addEventListener("click", () => {
+   fireWork();
 });
 
 fireWorkBtn2.addEventListener("click", () => {
-   $(".fireWork").fireworks({
-      sound: true, // sound effect
-      opacity: 0.4,
-      width: "100%",
-      height: "100%",
-   });
-   headingOne.innerHTML = "🎈🎉 Happy New Year ! 🥳";
-   headingTwo.innerHTML =
-      "Let us remember the good times along with the bad And pray for sunnier days in 2021 ...";
-   cap.style.display = "block";
-   cap2.style.display = "block";
+   fireWork();
    headingOne.style.marginBottom = "150px";
    headingTwo.style.marginTop = "150px";
+   face2.style.marginTop = "140px";
 });
