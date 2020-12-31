@@ -10,6 +10,8 @@
 -  Firework animation
 -  Firework trigger button
 
+> Hit the trigger button located on the left bottom and see the magic! It will wish you a happy new year.
+
 ### Important Message:
 
 ```sh
